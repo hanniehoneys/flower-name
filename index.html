@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Name Flowers</title>
+    <title>Membuat Gambar berdasarkan Nama</title>
     <style>
       * {
         box-sizing: border-box;
@@ -118,7 +118,7 @@
             oninput="toggleButton()"
           />
           <input type="file" id="backgroundInput" accept="image/*" />
-          <label for="backgroundInput">Upload a custom background (optional):</label>
+          <label for="backgroundInput">Upload custom background (opsional):</label>
           <label for="bowSelect">Pilih Bow:</label>
           <select id="bowSelect">
             <option value="images/bow.png">Bow 1</option>
@@ -127,7 +127,7 @@
             <!-- Tambahkan opsi bow lainnya di sini -->
           </select>
           <input type="file" id="bowInput" accept="image/*" />
-          <label for="bowInput">Upload a custom bow (optional):</label>
+          <label for="bowInput">Upload a custom bow (opsional):</label>
           <label for="bowHeightInput">Atur Posisi Bow (% dari bawah):</label>
           <input type="number" id="bowHeightInput" min="0" max="100" value="0" />
           <button id="generateButton" onclick="displayImages()" disabled>
